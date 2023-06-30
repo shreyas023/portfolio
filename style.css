@@ -102,7 +102,7 @@ body::-webkit-scrollbar{
     width: -webkit-fill-available;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px;
+    padding: 75px 0px;
     flex-direction: row;
 }
 .col{
@@ -120,8 +120,8 @@ body::-webkit-scrollbar{
 }
 .des img{
     cursor: pointer;
-    height: 200px;
-    width : 200px;
+    height: 250px;
+    width : 250px;
 }
 .des img:hover{
     transform: scale(1.1);
@@ -164,6 +164,9 @@ body::-webkit-scrollbar{
     justify-content: space-between;
     align-items: center;
     margin: 35px 0px;
+}
+.school a{
+    text-decoration: none;
 }
 .college{
     height: 320px;
