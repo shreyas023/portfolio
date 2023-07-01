@@ -118,6 +118,12 @@ body::-webkit-scrollbar{
     align-items: flex-start;
     gap: 15px;
 }
+.des p{
+    font-size: 15px;
+}
+.b p{
+    font-size: 40px;
+}
 .des img{
     cursor: pointer;
     height: 250px;
@@ -131,6 +137,7 @@ body::-webkit-scrollbar{
     height: 400px;
     width: 500px;
 }
+
 
 /* educational qualification */
 .education{
@@ -185,6 +192,8 @@ body::-webkit-scrollbar{
 .college img{
     height: 200px;
     width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .college p{
     color: #0B0000;
@@ -285,6 +294,7 @@ body::-webkit-scrollbar{
     align-items: flex-start;
     width: -webkit-fill-available;
     padding: 75px 0;
+    gap: 15px;
 }
 .col-2{
     display: flex;
@@ -385,7 +395,7 @@ body::-webkit-scrollbar{
 .cert-item img{
     transition: all 0.3s ease;
     overflow: hidden;
-    width: 100%;
+    width: auto;
 }
 .cert-item div:hover {
     transform: scale(1.1);
@@ -400,7 +410,7 @@ body::-webkit-scrollbar{
     align-items: center;
     justify-content: center;
 }
-  
+ 
   .cert-item h3 {
     position: absolute;
     bottom: 0;
@@ -443,6 +453,499 @@ body::-webkit-scrollbar{
     width: 1000px;
     height: auto;
   }
+  .col-6 img{
+    height: 150px;
+    width: auto;
+}
+.a img{
+    width: 1000%;
+    height: auto;
+}
+
+/* toggle button  */
+
+.menu-btn{
+    display: none;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: fit-content;
+    position: relative;
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-btn{
+	color: #fff;
+	border: none;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+    background: transparent;
+}
+.dropdown-btn:focus {
+    outline: 0;
+}
+
+.dropdown{
+    left: 0;
+    background-color: #444;
+    z-index: 1;
+    position: fixed;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    width: 100%;
+    transition: max-height 0.5s ease-out;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  
+}
+.dropdown a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  width: 100%;
+  padding: 10px;
+}
+
+.dropdown a:hover {
+    background-color: #FFB800;
+	color: #fff;
+    text-decoration: none;
+    transition: color, background-color, 0.3s;
+    padding: 10px;
+}
+
+.display-menu{
+	max-height: 250px;
+}
+
+.dropdown a:focus {
+    outline: 0;
+}
+
+  /* media query  */
+
+@media (max-width: 1300px){
+    .college{
+        width: min-content;
+        height: 250px;
+    }
+    .college img{
+        height: 150px;
+        width: auto;
+    }
+    .college p{
+        font-size: 20px;
+    }
+    .certificate2 img{
+        width: 400px;
+    }
+    .certificate3 img{
+        width: 300px;
+    }
+    .certificate4 img{
+        width: 300px;
+    }
+    .certificate5 img{
+        width: 400px;
+    }
+    .certificate6 img{
+        width: 400px;
+    }
+}
+
+@media (max-width:1100px){
+    .intro{
+        padding: 50px 0;
+    }
+    .des img{
+        height: 175px;
+        width: 175px;
+    }
+    .des p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .b p{
+        font-size: 30px;
+    }
+    .dis img{
+        height: 320px;
+        width: 400px;
+    }
+    .heading{
+        font-size: 25px;
+    }
+    .col-1 img{
+        height: 150px;
+    }
+    .col-2 img{
+        height: 150px;
+    }
+    .col-3 p{
+        font-size: 15px;
+    }
+    .col-4 img{
+        height: 150px;
+    }
+    .certificate1 img{
+        width: 500px;
+    }
+    .certificate2 img{
+        width: 300px;
+    }
+    .certificate3 img{
+        width: 250px;
+    }
+    .certificate4 img{
+        width: 250px;
+    }
+    .certificate5 img{
+        width: 300px;
+    }
+    .certificate6 img{
+        width: 300px;
+    }
+    .col-6{
+        width: 750px;
+    }
+    .col-6 img{
+        height: 100px;
+    }
+    .col-6 p{
+        font-size: 15px;
+    }
+    .col-6 h2{
+        font-size: 20px;
+    }
+    .a img{
+        height: 150px;
+    }
+    .logo{
+        font-size: 12px;
+    }
+    .college{
+        height: 200px;
+    }
+    .college img{
+        height: 100px;
+        width: auto;
+    }
+    .college p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:900px){
+    .navbar{
+        padding: 20px 50px;
+    }
+    .logo img{
+        height: 30px;
+    }
+    #resume{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .item{
+        font-size: 12px;
+        margin: 0px 10px;
+    }
+    .dis img{
+        height: 280px;
+        width: 350px;
+    }
+    .des{
+        gap: 10px;
+    }
+    .des p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .b p{
+        font-size: 30px;
+    }
+    .heading{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .social{
+        font-size: 12px;
+    }
+    #contact{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .col-1 img{
+        height: 100px;
+    }
+    #scrollbtn{
+        font-size: 20px;
+    }
+    .footer{
+        padding: 20px 50px;
+    }
+    .intern img{
+        height: 100px;
+    }
+    .row img{
+        height: 100px;
+    }
+    .col-2 p{
+        font-size: 15px;
+    }
+    .col-3 h2{
+        font-size: 20px;
+    }
+    .col-3 p{
+        font-size: 12px;
+    }
+    .col-4 p{
+        font-size: 15px;
+    }
+    .col-5 p{
+        font-size: 12px;
+    }
+    .certificate3 img{
+        width: 200px;
+    }
+    .certificate4 img{
+        width: 200px;
+    }
+    .col-6{
+        width: 600px;
+    }
+    .a img{
+        height: 125px;
+    }
+}
+
+@media (max-width:700px){
+    .navbar{
+        padding: 15px 30px;
+    }
+    .footer{
+        padding: 15px 30px;
+    }
+    .col{
+        flex-basis: 30%;
+    }
+    
+    .des p{
+        text-align: justify;
+        font-size: 10px;
+    }
+    .b p{
+        font-size: 20px;
+    }
+    .des img{
+        height: 150px;
+        width: 150px;
+    }
+    .dis img{
+        height: 250px;
+        width: 300px;
+    }
+    .education{
+        padding: 50px;
+    }
+    .heading{
+        margin: 15px 0;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .school{
+        flex-direction: column;
+    }
+    .college p{
+        font-size: 12px;
+    }
+    .col-1 img{
+        height: 75px;
+    }
+    .intro{
+        padding: 25px 0;
+    }
+    .certificate1 img{
+        width: 400px;
+    }
+    .certificate2 img{
+        width: 200px;
+    }
+    .certificate3 img{
+        width: 150px;
+    }
+    .certificate4 img{
+        width: 150px;
+    }
+    .certificate5 img{
+        width: 200px;
+    }
+    .certificate6 img{
+        width: 200px;
+    }
+    .cert-item{
+        gap: 15px;
+    }
+    .row img{
+        height: 75px;
+    }
+    .row h2{
+        font-size: 15px;
+    }
+    .col-2 p{
+        font-size: 10px;
+    }
+    .a img{
+        height: 100px;
+    }
+    .col-6{
+        width: 475px;
+        padding: 10px;
+    }
+    .col-6 h2{
+        font-size: 12px;
+    }
+    .social{
+        gap: 10px;
+    }
+    .logo{
+        gap: 10px;
+        font-size: 10px;
+    }
+    .logo img{
+        height: 20px;
+    }
+    .item{
+        margin: 0px 5px;
+    }
+    .col-3{
+        gap: 20px;
+    }
+    .col-3 p{
+        font-size: 10px;
+    }
+    .col-4 p{
+        font-size: 12px;
+    }
+    .col-5 p{
+        font-size: 10px;
+    }
+    .col-5 h3{
+        font-size: 16px;
+    }
+    .container{
+        gap: 25px;
+        padding: 25px 0;
+    }
+}
+@media (max-width:500px){
+    .content{
+        display: none;
+    }
+    
+    .menu-btn{
+        display: block;
+    }
+    .res{
+        display: none;
+    }
+    #resume{
+        padding: 0;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .intro{
+        flex-direction: column;
+        padding: 25px 25px;
+        gap: 25px;
+    }
+    .dis img{
+        height: 190px;
+        width: 220px;
+    }
+    .col-1{
+        margin: 25px 5px;
+    }
+    .col-1 img{
+        height: 45px;
+    }
+    .technical{
+        padding: 10px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 10px;
+        box-shadow: 1px 1px 5px #000;
+        border: none;
+    }
+    .intern img{
+        height: 75px;
+    }
+    .intern h2{
+        font-size: 15px;
+        text-align: left;
+    }
+    .col-3{
+        gap: 5px;
+    }
+    .col-5{
+        gap: 5px;
+    }
+    .col-5 div{
+        font-size: 12px;
+    }
+    .certificate1 img{
+        width: 250px;
+    }
+    .certificate2 img{
+        width: 250px;
+    }
+    .certificate3 img{
+        width: 250px;
+    }
+    .certificate4 img{
+        width: 250px;
+    }
+    .certificate5 img{
+        width: 250px;
+    }
+    .certificate6 img{
+        width: 250px;
+    }
+    .cert-item{
+        flex-direction: column;
+    }
+    .col-6{
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-6 .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .a img{
+        height: 125px;
+        width: 125px;
+    }
+}
+
+
 
 
   

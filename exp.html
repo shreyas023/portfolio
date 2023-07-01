@@ -16,17 +16,27 @@
     <div class="header">
         <div class="navbar">
             <div class="logo">
-                <a href="index.html"><img src="images/name.png" alt="Shreyas" class="title"></a>            
+                <a href="index.html"><img src="images/name.png" alt="Shreyas" class="title"></a>
             </div>
             <div class="content">
-                <a href="index.html"><div class="item">Home</div></a>
-                <a href="exp.html"><div class="item"  style="color: #FFB800; font-weight: 700;">Experience</div></a>
+                <a href="index.html"><div class="item" style="color: #FFB800; font-weight: 700;">Home</div></a>
+                <a href="exp.html"><div class="item">Experience</div></a>
                 <a href="cert.html"><div class="item">Certifications</div></a>
                 <a href="pro.html"><div class="item">Projects</div></a>
             </div>
-            <div class="btn" id="resume">
+            <div class="btn res" id="resume" onclick="topFunction()">
                 Resume <i class="fa fa-download"></i>
             </div>
+            <div class="menu-btn">
+                <button class="dropdown-btn" onclick="displayMenu()">≡</button>	
+            </div>
+        </div>
+        <div id="menu" class="dropdown">
+            <a href="index.html"><div>Home</div></a>
+            <a href="exp.html"><div>Experience</div></a>
+            <a href="cert.html"><div>Certifications</div></a>
+            <a href="pro.html"><div>Projects</div></a>
+            <a><div id="resume" onclick="topFunction()">Resume <i class="fa fa-download"></i></div></a>
         </div>
 
         <!-- internship  -->

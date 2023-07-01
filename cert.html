@@ -14,25 +14,35 @@
 
     <!-- navbar  -->
     <div class="cert">
-        <div class="navbar" style="background-color: #02073D;">
+        <div class="navbar" style="background: #02073D;">
             <div class="logo">
                 <a href="index.html"><img src="images/name.png" alt="Shreyas" class="title"></a>
             </div>
             <div class="content">
-                <a href="index.html"><div class="item">Home</div></a>
+                <a href="index.html"><div class="item" style="color: #FFB800; font-weight: 700;">Home</div></a>
                 <a href="exp.html"><div class="item">Experience</div></a>
-                <a href="cert.html"><div class="item"  style="color: #FFB800; font-weight: 700;">Certifications</div></a>
+                <a href="cert.html"><div class="item">Certifications</div></a>
                 <a href="pro.html"><div class="item">Projects</div></a>
             </div>
-            <div class="btn" id="resume">
+            <div class="btn res" id="resume" onclick="topFunction()">
                 Resume <i class="fa fa-download"></i>
             </div>
+            <div class="menu-btn">
+                <button class="dropdown-btn" onclick="displayMenu()">≡</button>	
+            </div>
+        </div>
+        <div id="menu" class="dropdown">
+            <a href="index.html"><div>Home</div></a>
+            <a href="exp.html"><div>Experience</div></a>
+            <a href="cert.html"><div>Certifications</div></a>
+            <a href="pro.html"><div>Projects</div></a>
+            <a><div id="resume" onclick="topFunction()">Resume <i class="fa fa-download"></i></div></a>
         </div>
 
         <!-- certifications  -->
         <div class="container">
             <div class="cert-item">
-                <div>
+                <div class="certificate1">
                 <a href="https://www.linkedin.com/posts/shreyas-bailkar-a4597121b_internship-certificate-activity-7024723618995548160-V6e-?utm_source=share&utm_medium=member_desktop">
                     <img src="images/int-cert.jpg" alt="">
                 </a>
@@ -40,51 +50,51 @@
                 </div>
             </div>
             <div class="cert-item">
-                <div>
+                <div class="certificate2">
                 <a href="https://unstop.com/certificate-preview/6ba2fffa-e465-4586-aef4-183066aac499?utm_campaign=">
                     <img src="images/hackx-cert.png" alt="">
                 </a>
                 <h3>Winner of HackX: Find your hack</h3>
                 </div>
-                <div>
+                <div class="certificate2">
                 <img src="images/clone-cert.png" alt="">
                 <h3>Winning certificate - Clone It Up!</h3>
                 </div>
             </div>
             <div class="cert-item">
-                <div>
-                <a href="https://lnkd.in/dbE32FUj"><img src="images/gdsc1.png" alt=""></a>
+                <div class="certificate3">
+                <a href="https://lnkd.in/dbE32FUj" target="_blank"><img src="images/gdsc1.png" alt=""></a>
                 <h3>Cloud Computing with AWS (GDSC)</h3>
                 </div>
-                <div>
+                <div class="certificate3">
                 <a href="https://lnkd.in/dUktyuvt"><img src="images/gdsc2.png" alt=""></a>
                 <h3>Javascript and ReactJs (GDSC)</h3>
                 </div>
-                <div>
+                <div class="certificate3">
                 <a href="https://lnkd.in/d_PVn94a"><img src="images/gdsc3.png" alt=""></a>
                 <h3>Machine Learning Using Python & Sklearn (GDSC)</h3>
                 </div>
             </div>
             <div class="cert-item">
-                <div>
+                <div class="certificate4">
                 <a href="https://lnkd.in/dDcrYFr3"><img src="images/mlsa1.png" alt=""></a>
                 <h3>Cloud Computing with AWS (MLSA)</h3>
                 </div>
-                <div>
+                <div class="certificate4">
                 <a href="https://lnkd.in/dm6ccAqJ"><img src="images/mlsa2.png" alt=""></a>
                 <h3>Javascript and ReactJs (MLSA)</h3>
                 </div>
-                <div>
+                <div class="certificate4">
                 <a href="https://lnkd.in/dxKR5Z6b"><img src="images/mlsa3.png" alt=""></a>
                 <h3>Machine Learning Using Python & Sklearn (MLSA)</h3>
                 </div>
                 </div>
             <div class="cert-item">
-                <div>
+                <div class="certificate5">
                 <a href="https://www.eduonix.com/certificate/74ba74f264"><img src="images/edu-cert.png" alt=""></a>
                 <h3>Web Developer from scratch</h3>
                 </div>
-                <div>
+                <div class="certificate5">
                 <a href="https://www.udemy.com/certificate/UC-598a0c0f-30ce-4903-9b96-a7af37f9b4a0/">
                     <img src="images/figma-cert.png" alt="">
                 </a>
@@ -92,13 +102,13 @@
                 </div>
                 </div>
             <div class="cert-item">
-                <div>
+                <div class="certificate6">
                 <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI2ODciLCJjZXJ0aWZpY2F0ZV91cmwiOiJodHRwczpcL1wvY2VydGlmaWNhdGVzLnNpbXBsaWNkbi5uZXRcL3NoYXJlXC90aHVtYl80MDE5NjEyXzE2NzEyMTM1NDUucG5nIiwidXNlcm5hbWUiOiJTaHJleWFzIEFuYW5kYSBCYWlsa2FyICJ9&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2Fthumb_4019612_1671213545.png&_branch_match_id=1202292531293737058&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1g93dAywyCzN8y9LAgDnbuJoIwAAAA%3D%3D">
                     <img src="images/ML-cert.png" alt="">
                 </a>
                 <h3>Machine Learning</h3>
                 </div>
-                <div>
+                <div class="certificate6">
                 <a href="simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxMTY5IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfMzUzODQ4Ml8xNjU1NTQwNTY3LnBuZyIsInVzZXJuYW1lIjoiU2hyZXlhcyBBbmFuZGEgQmFpbGthciJ9&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2Fthumb_3538482_1655540567.png&_branch_match_id=1202292531293737058&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1s9xdwqxzHfLjChMAgCz0SCOIwAAAA%3D%3D">
                     <img src="images/python-cert.png" alt="">
                 </a>

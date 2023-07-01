@@ -24,20 +24,32 @@
                 <a href="cert.html"><div class="item">Certifications</div></a>
                 <a href="pro.html"><div class="item">Projects</div></a>
             </div>
-            <div class="btn" id="resume">
+            <div class="btn res" id="resume">
                 Resume <i class="fa fa-download"></i>
             </div>
+            <div class="menu-btn">
+                <button class="dropdown-btn" onclick="displayMenu()">≡</button>	
+            </div>
         </div>
+        <div id="menu" class="dropdown">
+            <a href="index.html"><div>Home</div></a>
+            <a href="exp.html"><div>Experience</div></a>
+            <a href="cert.html"><div>Certifications</div></a>
+            <a href="pro.html"><div>Projects</div></a>
+            <a href="Shreyas-resume.pdf" download><div id="resume">Resume <i class="fa fa-download"></i></div></a>
+        </div>
+
+
         <div class="intro">
             <div class="col des">
                 <a href="https://www.linkedin.com/in/shreyas-bailkar-a4597121b"><img src="images/shreyas.png" alt="Shreyas"></a>
-                <div><p style="font-weight: 100; font-size: 40px;">I’m </p>
-                <p style="font-weight: 700; font-size: 40px;">Shreyas Bailkar</p></div>
+                <div class="b"><p style="font-weight: 100;">Hi! I’m </p>
+                <p style="font-weight: 700;">Shreyas Bailkar</p></div>
+                <p style="font-weight: 100;">An engineering student in Narsee Monjee institute of Management 
+                    Studies pursuing bachelor's degree in Computer science and Business systems.</p>
                 <div class="btn" id="contact">
                     Contact Me
                 </div>
-                <p style="font-size: 15px; font-weight: 100;">An engineering student in Narsee Monjee institute of Management 
-                    Studies pursuing bachelor's degree in Computer science and Business systems.</p>
             </div>
             <div class="col dis">
                 <img src="images/designations.png" alt="Shreyas">
@@ -54,8 +66,8 @@
             <a href="https://www.nmimsnavimumbai.org/">
                 <div class="college">
                 <img src="images/nmims.png" alt="nmims">
-                <p>B TECH CSBS (2021-25)
-                    NMIMS, NAVI MUMBAI</p>
+                <p>B TECH CSBS (2021-25)</p>
+                    <p>NMIMS, NAVI MUMBAI</p>
                 </div>
             </a>
             <a href="https://schools.org.in/raigarh-(maharashtra)/27240817404/st-joseph-secondary-high-school-kalamboli.html">
@@ -114,7 +126,7 @@
         </div>
     </div>
     <div class="scroller">
-        <button id="scrollbtn" onclick="topFunction()">&#8593</button>
+        <button id="scrollbtn">&#8593</button>
     </div>
 
     <script src="script.js"></script>

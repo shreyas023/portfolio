@@ -16,44 +16,68 @@
     <div class="pro">
         <div class="navbar">
             <div class="logo">
-                <a href="index.html"><img src="images/name.png" alt="Shreyas" class="title"></a>            
+                <a href="index.html"><img src="images/name.png" alt="Shreyas" class="title"></a>
             </div>
             <div class="content">
-                <a href="index.html"><div class="item">Home</div></a>
+                <a href="index.html"><div class="item" style="color: #FFB800; font-weight: 700;">Home</div></a>
                 <a href="exp.html"><div class="item">Experience</div></a>
                 <a href="cert.html"><div class="item">Certifications</div></a>
-                <a href="pro.html"><div class="item" style="color: #FFB800; font-weight: 700;">Projects</div></a>
+                <a href="pro.html"><div class="item">Projects</div></a>
             </div>
-            <div class="btn" id="resume">
+            <div class="btn res" id="resume" onclick="topFunction()">
                 Resume <i class="fa fa-download"></i>
             </div>
+            <div class="menu-btn">
+                <button class="dropdown-btn" onclick="displayMenu()">≡</button>	
+            </div>
+        </div>
+        <div id="menu" class="dropdown">
+            <a href="index.html"><div>Home</div></a>
+            <a href="exp.html"><div>Experience</div></a>
+            <a href="cert.html"><div>Certifications</div></a>
+            <a href="pro.html"><div>Projects</div></a>
+            <a><div id="resume" onclick="topFunction()">Resume <i class="fa fa-download"></i></div></a>
         </div>
 
         <!-- projects  -->
         <div class="container">
             <div class="col-6">
-                <div class="row">
-                    <a href="https://www.geeksforgeeks.org/machine-learning/"><div class="row"><img src="images/ML.png" alt=""></div></a>
-                    <div class="col-2" style="width: min-content;">
-                    <a href="https://github.com/shreyas023/HackX/"><div class="row"><img src="images/hackx.png" alt="" height="150px" width="160px"></div></a>
-                    <p>Crop cultivation model</p>
-                    </div>
-                    <div class="col-2" style="width: min-content;">
-                    <a href="https://github.com/shreyas023/YBI-Project-Machine-Learning/"><div class="row"><img src="images/ybi.png" alt="" height="150px" width="auto"></div></a>
-                    <p>Cement strength prediction model</p>
-                    </div>
-                    <div class="col-2" style="width: min-content;">
-                    <a href="https://github.com/shreyas023/YBI-Projects"><div class="row"><img src="images/ybi.png" alt="" height="150px" width="auto"></div></a>
-                    <p>Disease identifier model</p>
-                    </div>
-                </div>
                 <div class="row" style="justify-content: flex-start;">
                     <h2>MACHINE LEARNING PROJECTS</h2>
                 </div>
+                <div class="row">
+                    <a href="https://www.geeksforgeeks.org/machine-learning/">
+                        <div class="row a"><img src="images/ML.png" alt=""></div>
+                    </a>
+                    <div class="col-2" style="width: min-content;">
+                    <a href="https://github.com/shreyas023/HackX/">
+                        <div class="row"><img src="images/hackx.png" alt=""></div>
+                    </a>
+                    <p>Crop cultivation model</p>
+                    </div>
+                    <div class="col-2" style="width: min-content;">
+                    <a href="https://github.com/shreyas023/YBI-Project-Machine-Learning/">
+                        <div class="row"><img src="images/ybi.png" alt=""></div>
+                    </a>
+                    <p>Cement strength prediction model</p>
+                    </div>
+                    <div class="col-2" style="width: min-content;">
+                    <a href="https://github.com/shreyas023/YBI-Projects">
+                        <div class="row"><img src="images/ybi.png" alt=""></div>
+                    </a>
+                    <p>Disease identifier model</p>
+                    </div>
+                </div>
+                
             </div>
             <div class="col-6">
+                <div class="row" style="justify-content: flex-start;">
+                    <h2>FRONT END DEVELOPMENT PROJECTS</h2>
+                </div>
                 <div class="row">
-                    <a href="https://www.w3schools.com/html/html_css.asp"><div class="row"><img src="images/html-css.png" alt=""></div></a>
+                    <a href="https://www.w3schools.com/html/html_css.asp">
+                        <div class="row a"><img src="images/html-css.png" alt=""></div>
+                    </a>
                     <div class="col-2" style="width: min-content;">
                     <a href="https://shreyas023.github.io/Prabalya_website/"><div class="row"><img src="images/prabalya.png" alt="" height="150px" width="160px"></div></a>
                     <p>Prabalya registration website</p>
@@ -67,11 +91,12 @@
                     <p>Detective's website Ignite 5.0</p>
                     </div>
                 </div>
-                <div class="row" style="justify-content: flex-start;">
-                    <h2>FRONT END DEVELOPMENT PROJECTS</h2>
-                </div>
+                
             </div>
             <div class="col-6">
+                <div class="row">
+                    <h2>OTHER PROJECTS</h2>
+                </div>
                 <div class="row">
                     <div class="col-2" style="width: min-content;">
                     <a href="https://shreyas023.github.io/phrasemaster/"><div class="row"><img src="images/react.png" alt="" height="150px" width="160px"></div></a>
@@ -88,9 +113,7 @@
                     <p>Trucking website</p>
                     </div>
                 </div>
-                <div class="row">
-                    <h2>OTHER PROJECTS</h2>
-                </div>
+                
             </div>
         </div>
     

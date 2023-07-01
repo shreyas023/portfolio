@@ -15,9 +15,10 @@ function scrollFunction() {
     // scrollbtn.style.display === "none" ?  "block" : "none";
 }
 
-function topFunction() {
+document.getElementById("scrollbtn").addEventListener("click",function(){
     document.documentElement.scrollTop = 0;
-    }
+
+});
 
 
     // download resume 
@@ -37,6 +38,13 @@ document.getElementById("contact").addEventListener("click", function() {
     var mailtoUrl = "mailto:" + email;
     window.open(mailtoUrl);
   });
+
+//   toggle menu 
+
+function displayMenu() {
+      let element = document.getElementById("menu");
+      element.classList.toggle("display-menu");
+    }
   
   
 
