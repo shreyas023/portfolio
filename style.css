@@ -943,6 +943,10 @@ body::-webkit-scrollbar{
         height: 125px;
         width: 125px;
     }
+    .scroller{
+	bottom: 200px;
+	right: 25px;
+    }
 }
 
 
