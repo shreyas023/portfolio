@@ -39,6 +39,12 @@ document.getElementById("contact").addEventListener("click", function() {
     window.open(mailtoUrl);
   });
 
+document.getElementById("contact1").addEventListener("click", function() {
+    var email = "shreyasbailkar01@gmail.com";
+  
+    var mailtoUrl = "mailto:" + email;
+    window.open(mailtoUrl);
+  });
 //   toggle menu 
 
 function displayMenu() {
