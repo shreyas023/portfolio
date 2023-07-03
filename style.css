@@ -102,7 +102,7 @@ body::-webkit-scrollbar{
     width: -webkit-fill-available;
     justify-content: center;
     align-items: center;
-    padding: 75px 0px;
+    padding: 90px 0px;
     flex-direction: row;
 }
 .col{
