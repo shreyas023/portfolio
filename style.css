@@ -682,6 +682,10 @@ body::-webkit-scrollbar{
         padding: 5px 10px;
         font-size: 12px;
     }
+    #contact1{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
     .col-1 img{
         height: 100px;
     }
@@ -944,8 +948,8 @@ body::-webkit-scrollbar{
         width: 125px;
     }
     .scroller{
-	bottom: 200px;
-	right: 25px;
+        bottom: 175px;
+        right: 15px;
     }
 }
 
