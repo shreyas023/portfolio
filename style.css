@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Inter';
+	font-family: 'Poppins', sans-serif;
 }
 body::-webkit-scrollbar{
-    display: none;
+display: none;
 }
 .header{
     width: auto;
@@ -149,7 +151,7 @@ body::-webkit-scrollbar{
     align-items: center;
     background: #BFCEDB;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Poppins',sans-serif;
 }
 .heading{
     display: flex;
