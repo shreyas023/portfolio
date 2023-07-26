@@ -12,12 +12,10 @@ function scrollFunction() {
             scrollbtn.style.display = "none";
         }
 
-    // scrollbtn.style.display === "none" ?  "block" : "none";
 }
 
 document.getElementById("scrollbtn").addEventListener("click",function(){
     document.documentElement.scrollTop = 0;
-
 });
 
 
@@ -34,17 +32,19 @@ document.getElementById("resume").addEventListener("click", function() {
 // contact 
 document.getElementById("contact").addEventListener("click", function() {
     var email = "shreyasbailkar01@gmail.com";
-  
     var mailtoUrl = "mailto:" + email;
     window.open(mailtoUrl);
   });
 
+
+ 
+
 document.getElementById("contact1").addEventListener("click", function() {
     var email = "shreyasbailkar01@gmail.com";
-  
     var mailtoUrl = "mailto:" + email;
     window.open(mailtoUrl);
   });
+
 //   toggle menu 
 
 function displayMenu() {
