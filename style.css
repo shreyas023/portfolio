@@ -127,8 +127,8 @@ body::-webkit-scrollbar{
 }
 .des img{
     cursor: pointer;
-    height: 250px;
-    width : 250px;
+    height: 225px;
+    width : 225px;
     border-radius: 50%;
 }
 .des img:hover{
